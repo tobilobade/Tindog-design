@@ -1,0 +1,217 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h5{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+p{
+    color: #8f8f8f;
+    font-size:15px; 
+}
+
+#features h3{
+    font-size: 1rem;
+}
+
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+/* button */
+
+.btn{
+    padding: 10px 38px;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+
+}
+
+/* cta */
+
+.cta-header{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0 25%;
+    padding-top: 28px;
+    word-wrap: normal;
+
+}
+
+/* footer */
+
+.footer-brand{
+    padding: 0 10px;
+}
+
+
+
+/* Features */
+
+.icons{
+    padding: 17px 15px;
+}
+
+
+ /* icons */
+
+.fa-brands{
+    padding: 0 5px; 
+}
+
+.solid1{
+    color: #EF8172;
+    padding: 25px 15px;
+}
+
+
+/* icon-hover states */
+
+.solid1:hover{
+    color:#ff4c68;
+}
+
+
+/* press */
+.press-image{
+    width: 10%;
+    margin: 10px 35px;
+}
+
+/* pricing classes */
+.PricingHeader{
+    color: #191919;
+}
+
+.card-subtitle{
+    color:#ff4c68;
+}
+
+.pricingContainer{
+    padding: 70px 10px;
+}
+
+.card{
+    margin: 5px 5px;
+}
+
+
+
+/* navigation bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem ;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 12px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.title-image{
+    width: 95%;
+    margin: 5px 25px;
+}
+
+
+/* section */
+.colored-section{
+    background-color:#ff4c68;
+    color: #ffffff;
+}
+.white-section{
+    color:#191919;
+}
+
+/* testimonial */
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px 20px 0;
+}
+
+.carousel-item{
+    padding: 10% 15%;
+}
+
+
+
+ /* IDs */
+
+ #cta{
+    background-color:#ff4c68;
+    padding-bottom: 8px;
+    text-align: center;
+ }
+
+#features{
+    padding: 10% 15%;
+    text-align: center;
+    
+}
+
+#footer{
+    padding: 5%;
+    text-align: center;
+   
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#press{
+    background-color: #EF8172;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #EF8172;
+    line-height: 1.5px;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+@media (max-width:1083px){
+    .title-image{
+        width: 100%;
+        margin: 5px 25px;
+        position: static;
+        
+    }
+    
+    #title{
+        text-align: center;
+    }
+    
+
+}
